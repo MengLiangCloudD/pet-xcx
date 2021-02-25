@@ -1,0 +1,69 @@
+.content{
+    position: absolute;
+    width: 100%;
+    background:rgb(238,238,238);
+}
+.item{
+    background: #fff;
+    width: 1069px;
+    padding: 44px 0px 44px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+    
+    .item_title{
+        position: relative;
+        width: calc(100% - 38px);
+        border-bottom: 1px solid rgb(238,238,238);
+        padding-left: 38px;
+        padding-bottom: 34px;
+        .title_biao{
+            width: 6px;
+            height: 30px;
+            margin-right: 26px;
+            display: inline-block;
+            vertical-align: middle;
+            background: rgb(0,121,255);
+        }
+        .title_txt{
+            font-size: 44px;
+            color: rgb(34,34,34);
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .huiYou_child{
+            width: 20px;
+            height: 36px;
+            display: inline-block;
+            vertical-align: middle;
+            position: absolute;
+            right: 30px;
+            top: 8px;
+        }
+    }
+    .user_info{
+        margin: 0 28px;
+        padding: 8px 42px 34px 42px;
+        border-bottom: 1px solid rgb(238,238,238);
+        .user_info_child{
+            margin-top: 26px;
+            font-size: 36px;
+            color: rgb(34,34,34);
+        }
+    }
+    .price_info{
+        border-bottom: 0;
+    }
+    .info_bottom{
+        text-align: right;
+        font-size: 30px;
+        color: rgb(154,154,154);
+        margin-right: 68px;
+    }
+}
+.que{
+    width: 100%;
+}

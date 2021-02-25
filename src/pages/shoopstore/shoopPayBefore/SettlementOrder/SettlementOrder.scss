@@ -1,0 +1,238 @@
+.SettlementOrder{
+    width: 100%;
+   min-height: 100%;
+    position: absolute;
+    background:rgb(238,238,238);
+    padding-bottom:162px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.site{
+    width: 1071px;
+    height: 435px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #fff;
+    display: inline-block;
+    text-align: left;
+    margin-top: 22px;
+    
+    .site_title{
+        width: 100%;
+        position: relative;
+        
+        .imager{
+            width: 29px;
+            height: 40px;
+            vertical-align: middle;
+            margin-top: 62px;
+            margin-left: 62px;
+        }
+        .title_text{
+            font-size: 48px;
+            color: rgb(34, 34, 34);
+            margin-top: 62px;
+            margin-left: 26px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .genduo{
+            width: 20px;
+            height: 36px;
+            position: absolute;
+            top: 66px;
+            right: 55px;
+            .imager2{
+                width: 100%;
+            }
+        }
+    }
+}
+.site_name{
+    margin-top: 57px;
+    margin-left: 117px;
+}
+.site_number{
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    margin-left: 44px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.name{
+    display: inline-block;
+    font-size: 36px;
+    vertical-align: middle;
+}
+.dizhi{
+    margin-top: 40px;
+    margin-left: 117px;
+    font-size: 30px;
+}
+.fuwu{
+    margin-top: 90px;
+    margin-left: 117px;
+    font-size: 30px;
+    color: rgb(255, 147, 47);
+}
+.shoop{
+    width: 1071px;
+    // margin : 62px;
+    // padding : 62px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #fff;
+    display: inline-block;
+    text-align: left;
+    margin-top: 23px;
+    padding-bottom:52px;
+    .shoop_imager{
+        width: 29px;
+        height: 40px;
+        vertical-align: middle;
+        margin-top: 62px;
+        margin-left: 62px;
+    }
+    .shoop_text{
+        font-size: 48px;
+        color: rgb(34, 34, 34);
+        margin-top: 62px;
+        margin-left: 26px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.shoop_content{
+    margin-top: 58px;
+    margin-left: 117px;
+}
+.shoop_icno{
+    width: 236px;
+    height: 236px;
+    background: #000;
+    display: inline-block;
+    vertical-align: top;
+}
+.shoop_imgzhu{
+    width: 100%;
+}
+.shoop_infor{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 55px;
+    font-size: 36px;
+    color: rgb(34, 34, 34);
+}
+.infor_text{
+    margin-bottom: 22px;
+}
+.infor_number{
+    margin-top: 41px;
+}
+.shoop_guige{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 55px;
+    float: right;
+    font-size: 28px;
+    color: rgb(34, 34, 34);
+}
+.guige_price{
+    margin-bottom: 42px;
+}
+.guige_danja{
+    margin-bottom: 107px;
+}
+.price_title{
+    margin-top: 76px;
+    .price_imager{
+        width: 29px;
+        height: 40px;
+        vertical-align: middle;
+        margin-top: 62px;
+        margin-left: 62px;
+    }
+    .price_text{
+        font-size: 48px;
+        color: rgb(34, 34, 34);
+        margin-top: 62px;
+        margin-left: 26px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.price_content{
+    margin-left: 117px;
+    margin-top: 50px;
+    .comtent_text{
+        margin-bottom: 28px;
+        font-size: 36px;
+        color: rgb(34, 34, 34);
+        
+        
+    }
+    .comtent_text1{
+        position: relative;
+        .switch{
+            width: 100px;
+            height: 70px;
+            position: absolute;
+            right: 20px;
+            top: 0;
+        }
+    }
+}
+.shoop_bottom{
+    text-align: right;
+    margin-right: 59px;
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.bottom{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    padding: 16px;
+}
+.total,.balance{
+    display: inline-block;
+    vertical-align: middle;
+}
+.total{
+    // margin-left: 260px;
+    font-size: 36px;
+    width: 510px;
+    text-align: right;
+    color: rgb(34, 34, 34);
+}
+.gong{
+    font-size: 28px;
+    color: rgb(34, 34, 34);
+}
+.balance{
+    background: rgb(0,121,255);
+    border-radius: 58px;
+    color: #fff;
+    font-size: 48px;
+    width: 324px;
+    height: 116px;
+    text-align: center;
+    line-height: 116px;
+    // padding: 36px 0;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    margin-left: 48px;
+    margin-right: 26px;
+}

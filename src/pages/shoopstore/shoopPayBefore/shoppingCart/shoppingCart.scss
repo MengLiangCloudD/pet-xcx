@@ -1,0 +1,200 @@
+
+.title{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+.nav{
+   
+    // margin-left: 50px;
+    padding: 15px 0;
+    background:rgb(238,238,238);
+}
+.text{
+    font-size: 48px;
+    color: rgb(34, 34, 34);
+    padding-left: 50px;
+}
+.cat{
+    width: 100%;
+    height: 100%;
+    background:rgb(238,238,238);
+    position: absolute;
+    padding-top: 300px;
+    padding-bottom: 75px;
+
+}
+.shoop_List{
+    margin-top: 58px;
+    text-align: center;
+}
+.shoop_item{
+    display: inline-block;
+    width: 1071px;
+    height: 388px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 22px;
+    text-align: left;
+    position: relative;
+    box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+}
+.shoop_check{
+    width:200px;
+    height:150px;
+    position: absolute;
+    top: -60px;
+    left: -30px;
+    opacity: 0;
+}
+.check{
+    position: relative;
+    border: 1px solid rgb(34,34,34);
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    margin-left: 22px;
+    vertical-align: middle;
+}
+.zhong{
+    background:rgb(0,121,255);
+    background-image: url('./../../../../commen/imger/xuanze.png') ;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    border: 1px solid rgb(0,121,255);
+}
+
+.shoopInfor{
+    display: inline-block;
+    vertical-align: middle;
+   font-size: 36px;
+   color: rgb(34,34,34);
+   line-height: 1;
+}
+.shoopImg{
+    width: 236px;
+    height: 236px;
+    background: rgb(34,34,34);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 76px 56px 76px 56px;
+}
+.shoop_imgzhu{
+    width: 100%;
+}
+.shoopText{
+    display: inline-block;
+    vertical-align: middle;
+}
+.unitPrice{
+    margin-top: 63px;
+}
+.testInfor{
+    margin-bottom: 22px;  
+}
+.delatefor{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 150px;
+    height: 120px;
+    
+}
+.delate{
+    width: 27px;
+    height: 27px;
+    background-image: url('./../../../../commen/imger/delate.png') ;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    position: absolute;
+    top: 50px;
+    right: 48px;
+}
+.operation{
+    position: absolute;
+    bottom: 61px;
+    right: 59px;
+}
+.minus,.quantity,.add{
+    display: inline-block;
+    border: 2px solid rgb(220,220,220);
+    vertical-align: middle;
+    text-align: center;
+}
+.minus,.add{
+    width: 54px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.minus{
+    border-right: 0;
+}
+.add{
+    border-left: 0;
+}
+.quantity{
+    width: 136px;
+    height: 54px;
+    font-size: 36px;
+    line-height: 54px;
+}
+.bottom{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 16px;
+}
+.checkGrop{
+    margin-left: 48px;
+    display: inline-block;
+    font-size: 36px;
+}
+.lable{
+    vertical-align: middle;
+    margin-left: 28px;
+}
+.total,.checkGrop,.balance{
+    display: inline-block;
+    vertical-align: middle;
+}
+.total{
+    // margin-left: 260px;
+    font-size: 36px;
+    width: 510px;
+    text-align: right;
+}
+.balance{
+    background: rgb(0,121,255);
+    border-radius: 58px;
+    color: #fff;
+    font-size: 48px;
+    width: 324px;
+    height: 116px;
+    text-align: center;
+    line-height: 116px;
+    // padding: 36px 0;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    margin-left: 48px;
+}

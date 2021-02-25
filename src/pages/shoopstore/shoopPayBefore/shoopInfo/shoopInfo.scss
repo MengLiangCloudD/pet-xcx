@@ -1,0 +1,370 @@
+.zhe{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    z-index: 909;
+}
+.titslse{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+.navImg{
+    width: 100%;
+    height: 1125px;
+    background: #000;
+}
+.navImgInfo{
+    width: 100%;
+    background: #000;
+}
+.shoop_imgzhu{
+    width: 100%;
+    // height: 527px;
+}
+.imager{
+    width: 100%;
+}
+.shoop_jies{
+    // width: 100%;
+    padding-left: 50px;
+    border-bottom: 10px solid rgb(229,229,229);
+    position: relative;
+}
+.xiaoshou{
+    font-size: 24px;
+    color:rgb(34,34,34);
+    position: absolute;
+    top: 135px;
+    right: 50px;
+}
+.price{
+    padding-top: 53px;
+    
+    margin-bottom: 24px;
+    font-size: 48px;
+    color: rgb(255, 147, 47);
+}
+.store_name{
+    margin-bottom: 29px;
+}
+.store_img{
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+}
+.store{
+    vertical-align: middle;
+    margin-left: 24px;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+}
+.shoop_name{
+    font-size: 48px;
+    color: rgb(34, 34, 34);
+    margin-bottom: 34px;
+}
+.shoopinfo{
+    font-size: 28px;
+    color: rgb(34, 34, 34);
+    margin-bottom: 45px;
+}
+.info_dizhi{
+    padding-left: 50px;
+}
+
+.yunfei{
+    margin-top: 41px;
+}
+.pinpai{
+    margin-top: 37px;
+}
+.shiyong{
+    margin-top: 37px;
+}
+.baozhi{
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+.test1{
+    font-size: 36px;
+    color: rgb(154,154,154);
+}
+.test2{
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.shoucan_img{
+    width: 50px;
+    height: 50px;
+}
+.gouwuche_img{
+    width: 50px;
+    height: 47px;
+}
+.kefu_img{
+    width: 50px;
+    height: 45px;
+}
+.shoucan_text{
+    margin-top: 16px;
+    font-size: 30px;
+    color: rgb(110,110,110);
+}
+.kefu_text{
+    margin-top: 21px;
+    font-size: 30px;
+    color: rgb(110,110,110);
+}
+.gouwuche_text{
+    margin-top: 21px;
+    font-size: 30px;
+    color: rgb(110,110,110);
+}
+.kefu,.shoucan,.gouwuche{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.gouwuche{
+    margin-left: 55px;
+}
+.kefu{
+    margin-left: 54px;
+}
+.shoucan{
+    margin-left: 86px;
+}
+.content{
+    padding-bottom: 300px;
+}
+.bottom{
+    width: 100%;
+    background: #fff;
+    padding: 16px 0 117px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.btn{
+    background: rgb(0,121,255);
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    overflow: hidden;
+    margin-left: 80px;
+    box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+
+}
+.shoopCat_btn{
+    font-size:48px ;
+    color: #fff;
+    padding: 36px 40px;
+    display: inline-block;
+    vertical-align: middle;
+    background:rgba(255,255,255,0.5)
+}
+.shoopPay_btn{
+    font-size:48px ;
+    color: #fff;
+    padding: 36px 64px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.modal{
+    width: 100%;
+    height: 60%;
+    background: #fff;
+    position: fixed;
+    bottom:-60%;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    z-index: 999;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.modal1{
+    width: 100%;
+    height: 60%;
+    background: #fff;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    z-index: 999;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.title{
+    padding: 50px 46px 50px 50px;
+    position: relative;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.imger{
+    width: 236px;
+    height: 236px;
+    background:rgb(0,0,0);
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+.info{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    text-align: center;
+}
+.price{
+    font-size: 48px;
+    color: rgb(255,147,47);
+}
+.kucun{
+    font-size: 36px;
+    margin-top: 30px;
+    color: rgb(154,154,154);
+}
+.delate{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.delate_img{
+    width: 27px;
+    height: 27px;
+}
+.colorType{
+    padding: 50px 50px 30px 50px;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.typeName{
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.type_item{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px 20px;
+    background: rgb(248,248,248);
+    color: rgb(34,34,34);
+    font-size: 30px;
+    // margin-top: 30px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.item_type{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(248,248,248);
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 3px 17px;
+    color: rgb(0,121,255);
+    border: 2px solid  rgb(0,121,255);
+}
+.type_img{
+    width: 47px;
+    height: 47px;
+    vertical-align: middle;
+    background: #000;
+    display: inline-block;
+}
+.type_text{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 30px;
+}
+.chicunType{
+    padding: 30px 50px;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.shoopNumber{
+    padding: 30px 50px;
+    position: relative;
+}
+.operation{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.minus,.quantity,.add{
+    display: inline-block;
+    // border: 2px solid rgb(220,220,220);
+    vertical-align: middle;
+    text-align: center;
+}
+.minus,.add{
+    width: 54px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(238,238,238);
+}
+.minus{
+    border-right: 0;
+}
+.add{
+    border-left: 0;
+}
+.quantity{
+    width: 136px;
+    height: 54px;
+    font-size: 36px;
+    line-height: 54px;
+}
+.okBtn{
+    width: 100%;
+    position: absolute;
+    bottom: 117px;
+    left: 0;
+    text-align: center;
+}
+.addBtn{
+    height: 117px;
+    line-height: 117px;
+    width: 716px;
+    font-size: 48px;
+    color: #fff;
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    background: rgb(0,121,255);
+    display: inline-block;
+}

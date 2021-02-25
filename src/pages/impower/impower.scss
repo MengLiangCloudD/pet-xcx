@@ -1,0 +1,41 @@
+.content{
+    width: 100%;
+    position: fixed;
+    background-image: url('./../../commen/imger/shouquan.png') ;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: calc(50% - 256px);
+}
+.ok_btn{
+    width: 512px;
+    height:95px;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    color: #fff;
+    background: rgb(0,94,199);
+    line-height: 95px;
+    font-size: 48px;
+}
+.no_btn{
+    width: 512px;
+    height:95px;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    color: #fff;
+    background: rgb(210,210,210);
+    line-height: 95px;
+    margin-top:58px;
+    font-size: 48px;
+}

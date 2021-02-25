@@ -1,0 +1,292 @@
+.title{
+    // position: fixed;
+    width: 100%;
+    background:rgb(255,255,255);
+}
+.nav{
+    text-align: center;
+}
+
+.nav_list{
+    text-align: left;
+    display:-webkit-box;
+    display:flex;
+    display:-ms-flex;
+    display:-webkit-flex;
+    
+}
+.nav_item{
+    flex:1;
+    -ms-flex:1;
+    -webkit-flex:1;
+    -webkit-box-flex:1;
+    text-align:center;
+    margin-top:32px
+}
+.item_text{
+    font-size: 48px;
+    color: rgb(34,34,34);
+    // margin:32px 0 29px 0
+}
+.text_item{
+    font-size: 48px;
+    color: rgb(154,154,154);
+    // margin:32px 0 29px 0
+}
+.item_border{
+    width: 121px;
+    height: 6px;
+    background: rgb(0,121,255);
+    display: inline-block;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    background:rgb(238,238,238);
+    text-align: center;
+}
+.item_content{
+    text-align: left;
+    width: 1069px;
+    padding: 62px 0 53px 0;
+    background:#fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: inline-block;
+    margin-top: 48px;
+}
+.item_title{
+    
+    margin-left: 62px;
+    margin-right: 56px;
+    position: relative;
+}
+.loge_image{
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.shoop_text{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 26px;
+    font-size: 48px;
+    color: rgb(34,34,34);
+}
+.shoop_state{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 36px;
+    color: rgb(255,147,47);
+}
+.shoop_item{
+    position: relative;
+    margin-top: 58px;
+}
+.shoop_img{
+    width: 236px;
+    height: 236px;
+    // background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: inline-block;
+    margin-left: 117px;
+    vertical-align: top;
+    .imager{
+        width: 100%;
+    }
+}
+.shoop_info{
+    display: inline-block;
+    margin-left: 55px;
+    vertical-align: top;  
+    
+}
+.text{
+    font-size: 36px;
+    margin-bottom: 22px;
+    color: rgb(34,34,34);
+}
+.shoop_guig{
+    text-align: right;
+    position: absolute;
+    right: 56px;
+    top: 0;
+}
+.gui_text{
+    font-size: 28px;
+    color: rgb(34,34,34);
+    margin-bottom: 42px;
+}
+.zongji{
+    margin-top: 55px;
+}
+.allPrice{
+    margin-left: 117px;
+}
+.allPrice,.discounts,.reality{
+    display: inline-block;
+    vertical-align: middle;
+}
+.allPrice,.discounts{
+    margin-right: 62px;
+}
+.texrt1{
+    font-size: 30px;
+    color: rgb(34,34,34);
+}
+.texrt2{
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.order_bottom{
+    margin-top: 98px;
+}
+.tishi{
+    font-size: 36px;
+    color: rgb(255,147,47);
+    margin-left: 58px;
+}
+.bottom_btn{
+    margin-top: 72px;
+    position: relative;
+}
+.gengduuo{
+    position: relative;
+    opacity: 0;
+}
+.clickZhezao{
+    padding-left: 58px;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+}
+.qita{
+    width: 31px;
+    height: 8px;
+}
+.info_content{
+    // box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+    border-radius: 6px;
+    width: 290px;
+    height: 200px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-image: url('https://p-owner.oss-cn-beijing.aliyuncs.com/ju.png') ;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    text-align: center;
+    position: absolute;
+    left: -20px;
+    bottom: -200px;
+}
+.info_none{
+    display: none;
+}
+.info_block{
+    display: block;
+}
+.info_text1{
+    width: 290px;
+    height: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(154,154,154);
+    padding-top: 55px;
+    border-bottom: 1px solid rgb(238,238,238);
+    display: inline-block;
+}
+.info_text2{
+    width: 290px;
+    height: 63px;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(154,154,154);
+    padding-top: 15px;
+    display: inline-block;
+}
+.butt{
+    position: absolute;
+    right: 56px;
+    top: 0;
+}
+.update_dizhi{
+    padding: 0 44px;
+    height: 72px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 72px;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    border: 1px solid rgb(210,210,210);
+    font-size: 36px;
+    color: rgb(154,154,154);
+}
+.bottoner{
+    // width: 152px;
+    padding: 0 44px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    border: 1px solid rgb(255,147,47);
+    color: rgb(255,147,47);
+    font-size: 36px;
+    margin-left: 28px;
+}
+.zhezhao{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    font-size: 36px;
+    .module{
+        width: 60%;
+        //height: 100px;
+        background: #fff;
+        padding: 100px 50px 0 50px;
+        margin: 60% 20% 0 20%;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .botdtom{
+            width: 100%;
+            padding-top: 100px;
+            .btn_mod{
+                width: 49%;
+                display: inline-block;
+                padding-bottom: 50px;
+               
+            }
+        }
+            
+    }
+}
+.que{
+    width: 100%;
+}

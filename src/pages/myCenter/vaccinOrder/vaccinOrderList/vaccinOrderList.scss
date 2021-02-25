@@ -1,0 +1,125 @@
+.content{
+    position: absolute;
+    width: 100%;
+    background:rgb(238,238,238);
+    padding-top: 22px;
+}
+.content_item{
+    width: 1069px;
+    margin: 22px auto;
+    background: #fff;
+    text-align: left;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+
+}
+.content_item_title{
+    padding: 34px 0 20px 0;
+    position: relative;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.title_text{
+    
+    margin-left: 58px;
+    font-size: 48px;
+    color: rgb(34,34,34);
+}
+.code{
+    font-size: 36px;
+    color: rgb(225,147,47);
+    position: absolute;
+    top: 44px;
+    right: 58px;
+}
+.item_content{
+    padding:46px 0 68px 0;
+}
+.order_time,.seeing_time{
+    margin-left: 58px;
+    
+}
+.order_time,.seeing_time{
+    margin-bottom: 34px;
+}
+.time_key,.seeing_key{
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.time_value,.seeing_value{
+    // margin-left: 80px;
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.item_bottom{
+    width: calc(100% - 50px);
+    text-align: right;
+    padding-bottom: 25px;
+}
+.item_btn{
+    padding: 0 43px;
+    font-size: 36px;
+    height: 70px;
+    line-height: 72px;
+    color: rgb(154,154,154);
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    border: 1px solid rgb(154,154,154);
+    display: inline-block;
+    margin-right: 20px;
+}
+.goPay{
+    padding: 0 43px;
+    font-size: 36px;
+    height: 70px;
+    line-height: 72px;
+    color: rgb(255,147,47);
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    border: 1px solid rgb(255,147,47);
+    display: inline-block;
+}
+.zhezhao{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    font-size: 36px;
+    .module{
+        width: 60%;
+        //height: 100px;
+        background: #fff;
+        padding: 100px 50px 0 50px;
+        margin: 60% 20% 0 20%;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .botdtom{
+            width: 100%;
+            padding-top: 100px;
+            .btn_mod{
+                width: 49%;
+                display: inline-block;
+                padding-bottom: 50px;
+               
+            }
+        }
+            
+    }
+}
+.que{
+    width: 100%;
+}

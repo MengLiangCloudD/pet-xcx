@@ -1,0 +1,37 @@
+.content{
+    margin: 0 28px;
+}
+.title{
+    width: 100%;
+    height: 330px;
+    background-image: url('https://p-owner.oss-cn-beijing.aliyuncs.com/jieshao.png') ;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    text-align: center;
+    box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+}
+
+.biao{
+    display: inline-block;
+    width: 6px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 33px;
+    background: rgb(0,121,255);
+}
+.biao_text{
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(34,34,34);
+    vertical-align: middle;
+}
+.text_title{
+    margin-top: 79px;
+    margin-bottom: 40px;
+}
+.txt_info{
+    font-size: 36px;
+    color: rgb(34,34,34);
+    line-height: 62px;
+    margin-left: 39px;
+}

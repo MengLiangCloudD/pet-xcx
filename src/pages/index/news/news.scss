@@ -1,0 +1,84 @@
+.scrollview{
+    position: absolute;
+    width: 100%;
+    background: rgb(238,238,238);
+    padding-top: 22px;
+}
+.content{
+    margin: 0 auto;
+    width: 1069px;
+}
+.scrollview1{
+    background: #fff;
+}
+.item{
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 45px 28px 103px 28px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 6px 3px 6px 3px rgba(238,237,237,0.6), -6px 3px 6px 3px rgba(238,237,237,0.6) ;
+    margin-bottom: 10px;
+}
+.title{
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.itrm_title{
+    margin-bottom: 65px;
+}
+.item_img{
+    width: 61px;
+    height: 60px;
+    // background: #000;
+    margin-right: 42px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    .xitong{
+        width: 100%;
+    }
+    .yidu{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: #ffb067;
+        top: -7px;
+        right: -7px;
+}
+}
+.title_txt{
+    font-size: 48px;
+    color: rgb(34,34,34);
+    display: inline-block;
+    vertical-align: middle;
+}
+.content_text{
+    margin-top:16px;
+    margin-left: 130px;
+    font-size: 36px;
+    color: rgb(154,154,154);
+    white-space:nowrap;/* 规定文本是否折行 */  
+    overflow: hidden;/* 规定超出内容宽度的元素隐藏 */
+    text-overflow: ellipsis;
+}
+.time_txt{
+    position: absolute;
+    top: 64px;
+    right: 28px;
+    font-size: 30px;
+    color: rgb(34,34,34);
+}
+.que{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(34,34,34);
+}

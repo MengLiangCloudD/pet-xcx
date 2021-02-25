@@ -1,0 +1,331 @@
+
+.components-page{
+    // width: 100%;
+    // position: absolute;
+    background: rgb(238,238,238);
+    // height: 100%;
+}
+.modu{
+    font-size: 46px;
+}
+.at-modal__footer{
+    font-size: 46px;
+
+}
+.content{
+    width: 100%;
+    // height: 100%;
+    // position: absolute;
+    // top: 200px;
+    // left: 0;
+    background: rgb(238,238,238);
+    padding-top: 30px;
+    padding-bottom: 330px;
+}
+.nav_first{
+    width: 1069px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+}
+.first_title{
+    padding-top: 62px;
+    padding-bottom: 46px;
+}
+.order{
+    width: 29px;
+    height: 33px;
+    margin-left: 61px;
+    margin-right: 29px;
+    vertical-align: middle;
+}
+.first_text,.two_text{
+    display: inline-block;
+    font-size: 48px;
+    color: rgb(34, 34, 34);
+    vertical-align: middle;
+}
+.first_item{
+    // margin-bottom: 46px;
+    margin-left: 117px;
+    padding-bottom: 18px;
+    font-size: 36px;
+    color: rgb(255,147,47);
+    .state_item{
+        color: rgb(34,34,34);
+    }
+}
+.first_item1{
+    padding-bottom: 38px;
+}
+.nav_two{
+    width: 1069px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding-bottom: 38px;
+}
+.two_title{
+    padding-top: 62px;
+    position: relative;
+}
+.gengduo{
+    width: 20px;
+    height: 36px;
+    position: absolute;
+    right: 55px;
+    top: 66px;
+}
+.dizhi{
+    width: 29px;
+    height: 40px;
+    margin-left: 61px;
+    margin-right: 29px;
+    vertical-align: middle;
+}
+.two_content{
+    margin-top: 56px;
+    margin-bottom: 32px;
+    margin-left:117px;
+}
+.tow_name{
+    font-size: 36px;
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    vertical-align: middle;
+}
+.tow_number{
+    margin-left: 44px;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(110,110,110);
+    font-size: 30px;
+}
+.didian{
+    margin-left:117px;
+    font-size: 30px;
+    color: rgb(34, 34, 34);
+}
+.dizhi_bottom{
+    margin-left:117px;
+    font-size: 30px;
+    color: rgb(255, 147, 47);
+    margin-top: 112px;
+}
+.shoop{
+    width: 1069px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding-bottom: 38px;
+    padding-top: 62px;
+}
+.shoop_title{
+    position: relative;
+}
+.shoop_img{
+    width: 29px;
+    height: 29px;
+    margin-left: 61px;
+    margin-right: 28px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.shoop_text{
+    display: inline-block;
+    font-size: 48px;
+    color: rgb(34, 34, 34);
+    vertical-align: middle;
+}
+.shoop_content{
+    margin-top: 56px;
+    position: relative;
+}
+.shooping_img,.shoop_info,.shoop_info_left,.shoop_info_right{
+    display: inline-block;
+    vertical-align: text-top;
+}
+.shooping_img{
+    width: 236px;
+    height: 236px;
+    // background: #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    margin-left:117px;
+    .imager{
+        width: 100%;
+    }
+}
+.shoop_info{
+    margin-left: 56px;
+
+}
+.shoop_info_left{
+    font-size: 36px;
+    color: rgb(34, 34, 34);
+}
+.shoop_info_right{
+    text-align: right;
+    font-size: 28px;
+    color: rgb(34,34,34);
+    position: absolute;
+    right: 56px;
+    top: 0;
+}
+.shoopName{
+    margin-bottom: 22px;
+}
+.freight{
+    margin-bottom: 22px;
+}
+.shoop_type{
+    margin-bottom: 44px;
+}
+.numbre{
+    margin-top: 170px;
+}
+.jinePrice{
+    margin-top: 76px;
+}
+.jin_list{
+    margin-left: 117px;
+    margin-top: 56px;
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.shoop_zong_jin{
+    margin-bottom: 22px;
+}
+.jifen{
+    margin-bottom: 22px;
+}
+.shoop_zongji_bottom{
+    text-align: right;
+    margin-right: 88px;
+    margin-top: 58px;
+    font-size: 36px;
+    color: rgb(34,34,34);
+}
+.bottom{
+    background: #fff;
+    padding: 12px 0 121px 0;
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+.btnAll{
+    display: inline-block;
+    width: 648px;
+    border: 1px solid rgb(0,121,255);
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    height: 116px;
+    overflow: hidden;
+    margin-right: 28px;
+}
+.closes,.zhifBtn{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 116px;
+    color: rgb(154,154,154);
+    font-size: 48px;
+}
+.zhifBtn{
+    background:  rgb(0,121,255);
+    color: #fff;
+    
+}
+.update_dizhi{
+    padding: 0 64px;
+    height: 116px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 116px;
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    border: 1px solid rgb(210,210,210);
+    font-size: 48px;
+    color: rgb(154,154,154);
+    margin-right: 28px;
+}
+.bottoner{
+    //width: 152px;
+    padding: 0 64px;
+    height: 116px;
+    text-align: center;
+    line-height: 116px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+    border: 1px solid rgb(0,121,255);
+    color:#fff;
+    font-size: 48px;
+    margin-left: 28px;
+    background:  rgb(0,121,255);
+    margin-right: 28px;
+   
+}
+.zhezhao{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    font-size: 36px;
+    .module{
+        width: 60%;
+        //height: 100px;
+        background: #fff;
+        padding: 100px 50px 0 50px;
+        margin: 60% 20% 0 20%;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .botdtom{
+            width: 100%;
+            padding-top: 100px;
+            .btn_mod{
+                width: 49%;
+                display: inline-block;
+                padding-bottom: 50px;
+               
+            }
+        }
+            
+    }
+}

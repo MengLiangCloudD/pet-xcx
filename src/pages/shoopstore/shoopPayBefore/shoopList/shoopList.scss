@@ -1,0 +1,238 @@
+.components-page{
+   
+}
+.zhe{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+.title{
+    position: relative;
+    z-index: 999;
+}
+.search{
+    width: 1069px;
+    margin: 28px auto;
+    text-align: left;
+    border: 1px solid rgba(0,121,255,0.3);
+    padding: 16px 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+}
+.search_img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 58px;
+    margin-right: 54px;
+}
+.sousuo{
+    width: 44px;
+    height: 46px;
+}
+.inputValue{
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 36px;
+}
+.btn_sou{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 15px 30px;
+    color: #fff;
+    background: rgb(0,121,255);
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav{
+    position: relative;
+    z-index: 999;
+    display: -webkit-flex;
+    display:flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background:#fff;
+    // margin-top: 300px;
+}
+.type_list{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+}
+.type{
+    padding: 27px 80px;
+    border-bottom: 1px solid rgb(229,229,229);
+    position: relative;
+}
+.type1{
+    color: rgb(0,121,255);
+}
+.dui_img{
+    position: absolute;
+    width: 33px;
+    height: 23px;
+    top: 33px;
+    right: 80px;
+}
+.Allshoop{
+    margin-left: 64px;
+}
+.selectShoop{
+    display: inline-block;
+    margin-right:235px;
+    line-height: 100px;
+    text-align: center;
+    
+}
+.selectShoop2{
+    margin-right:0px;
+}
+.selectShoop1{
+    text-align: right;
+    width: 330px;
+    margin-right:70px;
+}
+.text{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 48px;
+    color: rgb(34,34,34);
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+}
+.text1{
+    width: 60%;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 48px;
+    color: rgb(0,121,255);
+    white-space: nowrap;
+overflow: hidden;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;
+
+}
+.imager{
+    width: 16px;
+    height: 14px;
+    margin-left: 32px;
+    vertical-align: middle;
+}
+.content{
+    position: absolute;
+    // height:calc(100% - 300px) ;
+    width: 100%;
+    text-align: center;
+    background:rgb(238,238,238);
+}
+.shoopList{
+    width: 1075px;
+    display: inline-block;
+    margin-top: 33px;
+    text-align: left;
+}
+.shoop_item{
+    margin-top: 14px;
+    vertical-align: top;
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+}
+.shoopImg{
+    background:#000;
+    width: 527px;
+    height: 527px;
+}
+.shoop_imgzhu{
+    width: 100%;
+    // height: 527px;
+}
+.shoop_name{
+    margin-left: 22px;
+    text-align: left;
+    margin-top: 34px;
+    font-size:36px;
+
+}
+.shoop_pinc{
+    margin-left: 22px;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    margin-top: 24px;
+}
+.shoop_shiyong{
+    margin-left: 22px;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    margin-top: 14px;
+}
+.shoop_price{
+    margin-top: 50px; 
+    margin-left: 22px;
+    margin-bottom: 48px; 
+    text-align: left;
+}
+.shishou{
+    font-size: 36px;
+    color: rgb(255, 147, 47);
+    margin-right: 7px;
+    
+}
+.yaunjia{
+    font-size: 24px;
+    color: rgb(110, 110, 110);
+    text-decoration: line-through;
+    
+}
+.xiaoliang{
+    position: absolute;
+    bottom: 48px;
+    font-size: 24px;
+    color: rgb(34,34,34);
+    right: 22px;
+}
+.wuche{
+    width: 72px;
+    height: 66px;
+}
+.gouwuche{
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgba(0,114,240,0.5);
+    text-align: center;
+    line-height: 155px;
+    position: fixed;
+    bottom: 277px;
+    right: 32px;
+}

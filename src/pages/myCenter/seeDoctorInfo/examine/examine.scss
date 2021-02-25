@@ -1,0 +1,95 @@
+.content{
+    position: absolute;
+    width: 100%;
+    background:rgb(238,238,238);
+}
+.item{
+    background: #fff;
+    width: 1029px;
+    padding: 44px 20px 44px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    .item_title{
+        position: relative;
+        width: calc(100% - 38px);
+        border-bottom: 1px solid rgb(238,238,238);
+        padding-left: 38px;
+        padding-bottom: 34px;
+        .title_txt{
+            font-size: 44px;
+            color: rgb(34,34,34);
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+        .huiYou_child{
+            // width: 20px;
+            // height: 36px;
+            font-size: 36px;
+            color: rgb(255,147,47);
+            display: inline-block;
+            vertical-align: middle;
+            position: absolute;
+            right: 30px;
+            top: 8px;
+        }
+    }
+    .bottom{
+        text-align: right;
+        margin-top: 40px;
+        color: rgb(255,147,47);
+        font-size: 36px;
+        margin-right: 58px;
+    }
+    .item_content{
+        margin-top: 14px;
+        .item_txt{
+            margin-top: 30px;
+            font-size: 36px;
+            margin-left: 58px;
+            .first_txt{
+                color: rgb(110,110,110);
+            }
+        }
+    }
+}
+.zhezhao{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    font-size: 36px;
+    .module{
+        width: 60%;
+        //height: 100px;
+        background: #fff;
+        padding: 100px 50px 0 50px;
+        margin: 60% 20% 0 20%;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .botdtom{
+            width: 100%;
+            padding-top: 100px;
+            .btn_mod{
+                width: 49%;
+                display: inline-block;
+                padding-bottom: 50px;
+               
+            }
+        }
+            
+    }
+}
+.que{
+    width: 100%;
+}

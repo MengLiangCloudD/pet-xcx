@@ -1,0 +1,200 @@
+.wrop{
+    width: 100%;
+    position: absolute;
+    background: rgb(238,238,238);
+}
+.content{
+    width: 1069px;
+    background: #fff;
+    padding: 70px 0 99px 0;
+    margin: 0 auto;
+    margin-top: 22px;
+    position: relative;
+}
+.right_yuan,.left_yuan{
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgb(238,238,238);
+}
+.left_yuan{
+    position: absolute;
+    left: -67px;
+    bottom: 210px;
+}
+.right_yuan{
+    position: absolute;
+    right:  -67px;
+    bottom: 210px;
+}
+
+.doctor_info{
+    margin: 0 90px;
+    padding-bottom: 55px;
+    color: rgb(34,34,34);
+    border-bottom: 1px dashed rgb(34,34,34);
+    position: relative;
+    .dontor_name{
+        .name{
+            font-size: 48px;
+        }
+        .job{
+            font-size: 40px;
+            margin-left: 64px;
+        }
+    }
+    .yuyue_time{
+        margin-top: 30px;
+        font-size: 36px;
+        .week{
+            margin-left: 20px;
+        }
+    }
+    .site{
+        margin-top: 24px;
+        font-size: 36px;
+    }
+    .doctor_heardimg{
+        width: 104px;
+        height: 104px;
+        // background: #000;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        .heardimg{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.pet_info{
+    padding: 54px 0 55px 0;
+    margin: 0 90px;
+    border-bottom: 1px dashed rgb(34,34,34);
+    position: relative;
+    color: rgb(34,34,34);
+    font-size: 36px;
+    .pet_name,.pet_type{
+        margin-top: 24px;
+    }
+    .youjian{
+        position: absolute;
+        right: 0;
+        top: 118px;
+        width: 20px;
+        height: 36px;
+    }
+}
+.select_time{
+    padding: 54px 0 55px 0;
+    margin: 0 90px;
+    border-bottom: 1px dashed rgb(34,34,34);
+    color: rgb(34,34,34);
+    .time_title{
+        font-size: 48px;
+        margin-bottom: 38px;
+    }
+    .time_nav{
+        .time_nav_item{
+            margin-top: 20px;
+            border: 1px solid rgb(238,238,238);
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            text-align: center;
+            font-size: 36px;
+            height: 90px;
+            line-height: 90px;
+        }
+        .time_nav_item_select{
+            border: 1px solid rgb(0,121,255);
+        }
+        .time_nav_item_disabled{
+            background: rgb(238,238,238);
+        }
+    }
+}
+.need_know{
+    padding: 54px 0 70px 0;
+    margin: 0 90px;
+    border-bottom: 1px dashed rgb(34,34,34);
+    color: rgb(34,34,34);
+    .know_title{
+        font-size: 48px;
+        margin-bottom: 52px;
+    }
+    .know_text{
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+.bottom{
+    padding: 132px 0 0 0;
+    margin: 0 90px;
+    color: rgb(34,34,34);
+    position: relative;
+    .doctor_pricce{
+        font-size: 35px;
+    }
+    .button{
+        width: 324px;
+        height: 116px;
+        line-height: 116px;
+        text-align: center;
+        color: #fff;
+        font-size: 48px;
+        border-radius: 58px;
+        -webkit-border-radius: 58px;
+        -moz-border-radius: 58px;
+        -ms-border-radius: 58px;
+        -o-border-radius: 58px;
+        background: rgb(0,121,255);
+        position: absolute;
+        right: 0;
+        top: 91px;
+    }
+}
+.zhezhao{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    font-size: 36px;
+    .module{
+        width: 60%;
+        //height: 100px;
+        background: #fff;
+        padding: 100px 50px 0 50px;
+        margin: 60% 20% 0 20%;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .botdtom{
+            width: 100%;
+            padding-top: 100px;
+            .btn_mod{
+                width: 49%;
+                display: inline-block;
+                padding-bottom: 50px;
+               
+            }
+        }
+            
+    }
+}

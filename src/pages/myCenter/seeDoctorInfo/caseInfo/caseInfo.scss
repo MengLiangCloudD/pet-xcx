@@ -1,0 +1,51 @@
+.content{
+    position: absolute;
+    width: 100%;
+    background:rgb(238,238,238);
+    padding-top: 22px;
+    .title{
+        width: 1011px;
+        padding: 45px 0 71px 58px;
+        font-size: 36px;
+        color: rgb(34,34,34);
+        background: #fff;
+        margin: 0 auto;
+        margin-bottom: 22px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .title_item{
+            padding-top: 26px;
+        }
+    }
+    .content_item{
+        padding: 20px 72px 50px 58px;
+        width: 939px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin: 0 auto;
+        font-size: 36px;
+        color: rgb(34,34,34);
+        background: #fff;
+        .item_info{
+            padding-top: 30px;
+            .biao_title{
+                display: inline-block;
+                width: 220px;
+                vertical-align: top;
+            }
+            .biao_info{
+                display: inline-block;
+                width: calc(100% - 220px);
+                vertical-align: top;
+                line-height: 1.2;
+            }
+        }
+    }
+}
+

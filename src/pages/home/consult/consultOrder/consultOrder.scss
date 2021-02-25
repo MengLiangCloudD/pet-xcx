@@ -1,0 +1,130 @@
+.title{
+    position: fixed;
+    width: 100%;
+    background:rgb(255,255,255);
+}
+.title{
+    position: relative;
+    z-index: 999;
+}
+.nav{
+    text-align: center;
+}
+.nav_list{
+    text-align: left;
+    display:-webkit-box;
+    display:flex;
+    display:-ms-flex;
+    display:-webkit-flex;
+    
+}
+.nav_item{
+    flex:1;
+    -ms-flex:1;
+    -webkit-flex:1;
+    -webkit-box-flex:1;
+    text-align:center;
+    margin-top:32px
+}
+.item_text{
+    font-size: 48px;
+    color: rgb(34,34,34);
+    // margin:32px 0 29px 0
+}
+.text_item{
+    font-size: 48px;
+    color: rgb(154,154,154);
+    // margin:32px 0 29px 0
+}
+.item_border{
+    width: 121px;
+    height: 6px;
+    background: rgb(0,121,255);
+    display: inline-block;
+}
+.content{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background:rgb(238,238,238);
+    text-align: center;
+}
+
+.item_content{
+    text-align: left;
+    width: 954px;
+    background: #fff;
+    margin:0 auto;
+    margin-top: 40px;
+    padding: 34px 62px 53px 56px;
+}
+.item_title{
+    width: 100%;
+    padding-bottom: 19px;
+    border-bottom: 1px solid rgb(238,238,238);
+    position: relative;
+}
+.item_name{
+    font-size: 48px;
+    color: rgb(34,34,34);
+}
+.item_code{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 36px;
+    color: rgb(255,147,47);
+}
+.item_center{
+    margin-top: 46px;
+
+}
+.item_info{
+    font-size: 36px;
+    color: rgb(34,34,34);
+    margin-bottom: 64px;
+    .info_name{
+        margin-right: 43px;
+    }
+}
+.item_time{
+    font-size: 30px;
+    color: rgb(110,110,110);
+}
+.item_bottom{
+    width: 100%;
+    text-align: right;
+    margin-top: 55px;
+}
+.item_btn{
+    padding: 0 43px;
+    font-size: 36px;
+    height: 70px;
+    line-height: 72px;
+    color: rgb(154,154,154);
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    border: 1px solid rgb(154,154,154);
+    display: inline-block;
+    margin-right: 20px;
+}
+.goPay{
+    padding: 0 43px;
+    font-size: 36px;
+    height: 70px;
+    line-height: 72px;
+    color: rgb(255,147,47);
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    border: 1px solid rgb(255,147,47);
+    display: inline-block;
+}
+.scrollview{
+    height:calc(100% - 400px);
+}

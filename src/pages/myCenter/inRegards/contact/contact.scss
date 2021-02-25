@@ -1,0 +1,20 @@
+.content{
+    position: absolute;
+    width: 100%;
+    background: rgb(238,238,238);
+}
+.item{
+    margin: 22px 28px 0 28px ;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.item_child{
+    padding: 36px 59px;
+    border-bottom: 1px solid rgb(238,238,238);
+    font-size: 40px;
+    color: rgb(34,34,34);
+}

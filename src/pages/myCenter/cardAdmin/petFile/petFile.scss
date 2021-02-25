@@ -1,0 +1,163 @@
+.title{
+    background: rgb(238,238,238);
+}
+.addBtn{
+    text-align: center;
+    height: 104px;
+    font-size: 48px;
+    color: rgb(154,154,154);
+    line-height: 104px;
+    background: #fff;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    background: rgb(238,238,238);
+    text-align: center;
+    padding-top: 20px;
+}
+.content_item{
+    width: 1069px;
+    padding: 71px 0 30px 0;
+    background: #fff;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    .card_no,.user_name,.phone_no{
+        margin-left: 59px;
+        margin-right: 59px;
+        font-size: 36px;
+        color: rgb(34,34,34);
+        display: flex;
+        .user_title{
+            flex: 1;
+        }
+    }
+    
+    .user_name,.phone_no{
+        margin-top: 25px;
+    }
+    .user_botom{
+        color: rgb(34,34,34);
+        font-size: 36px;
+        margin-top: 50px;
+        padding-top: 33px;
+        border-top: 1px solid rgb(238,238,238);
+        margin-left: 59px;
+        position: relative;
+        .user_btn{
+            // position: absolute;
+            // right: 60px;
+            // top: 33px;
+            text-align: right;
+            padding-right: 60px;
+            .look_info{
+                width: 240px;
+                text-align: center;
+                height: 72px;
+                border: 1px solid rgb(210,210,210);
+                border-radius: 36px;
+                -webkit-border-radius: 36px;
+                -moz-border-radius: 36px;
+                -ms-border-radius: 36px;
+                -o-border-radius: 36px;
+                line-height: 72px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .addMoney{
+                margin-left: 20px;
+                width: 240px;
+                text-align: center;
+                height: 72px;
+                border: 1px solid rgb(210,210,210);
+                border-radius: 36px;
+                -webkit-border-radius: 36px;
+                -moz-border-radius: 36px;
+                -ms-border-radius: 36px;
+                -o-border-radius: 36px;
+                line-height: 72px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+            
+    }
+}
+.pet_info{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    width: 1069px;
+    margin: 0 auto;
+}
+
+.pet_item{
+    width: 1069px;
+    padding: 71px 0;
+    text-align: left;
+    position: relative;
+    border-bottom: 3px solid rgb(238,238,238);
+    display: inline-block;
+    .pet_name,.pet_particular{
+        margin-left: 59px;
+        margin-right: 59px;
+        font-size: 36px;
+        color: rgb(34,34,34);
+        display: flex;
+        .pet_title{
+            flex:1;
+        }
+    }
+    .pet_particular{
+        margin-top: 25px;
+    }
+}
+.pet_item1{
+    width: 1063px;
+    padding: 65px 0;
+    border: 3px solid rgb(0,121,255);
+}
+.bottom{
+    width: 100%;
+    padding-top: 16px;
+    height: 233px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    .zfPrice{
+        font-size: 36px;
+        color: rgb(34,34,34);
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 46px;
+    }
+    .payBtn{
+        width: 324px;
+        height: 116px;
+        line-height:116px;
+        font-size: 48px;
+        text-align: center;
+        background: rgb(0,121,255);
+        color: #fff;
+        border-radius: 58px;
+        -webkit-border-radius: 58px;
+        -moz-border-radius: 58px;
+        -ms-border-radius: 58px;
+        -o-border-radius: 58px;
+        margin-right: 28px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

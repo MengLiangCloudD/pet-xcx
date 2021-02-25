@@ -1,0 +1,71 @@
+.item{
+    width: 1069px;
+    padding: 71px 0;
+    background: #fff;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+    .card_no,.user_name,.phone_no{
+        margin-left: 59px;
+        margin-right: 59px;
+        font-size: 36px;
+        color: rgb(34,34,34);
+        display: flex;
+        .user_title{
+            flex: 1;
+        }
+    }
+    
+    .user_name,.phone_no{
+        margin-top: 25px;
+    }
+    
+}
+.price_money{
+    text-align: center;
+    margin-top: 90px;
+    .balance{
+        font-size: 36px;
+        color: rgb(34,34,34);
+        margin-bottom: 100px;
+    }
+    .inpue_money{
+        border-bottom: 1px solid rgb(238,238,238);
+        padding-bottom: 29px;
+        width: 396px;
+        display: inline-block;
+        .inputValue{
+            width: 390px;
+            font-size: 48px;
+            text-align: center;
+        }
+    }
+}
+.bottom{
+    position: fixed;
+    bottom: 117px;
+   left: 0;
+   width: 100%;
+   text-align: center;
+}
+.button{
+    display: inline-block;
+    width: 761px;
+    height: 116px;
+    text-align: center;
+    color: #fff;
+    line-height: 116px;
+    background: rgb(0,121,255);
+    font-size: 48px;
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+}

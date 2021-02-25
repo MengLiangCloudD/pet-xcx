@@ -1,0 +1,27 @@
+.nav-wrap{
+    background:rgb(238,238,238);
+    color: rgb(34,34,34);
+    text-align: center;
+    padding-bottom:60px;
+    // border-bottom: 1px solid #ccc;
+    font-weight: 500;
+    position: relative;
+    font-size: 60px;
+    .nav-icon{
+        position: absolute;
+        // top: 145px;
+        left: 49px;
+        width: 100px;
+        height: 100px;
+        .imager{
+            width: 20px;
+            height: 36px;
+        }
+    }
+}
+.icon{
+    display: none;
+}
+.nav-wrap12{
+    background:#fff;
+}

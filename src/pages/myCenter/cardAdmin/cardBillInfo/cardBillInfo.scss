@@ -1,0 +1,26 @@
+.content{
+    width: 100%;
+    position: absolute;
+    background: rgb(255,255,255);
+    text-align: center;
+    padding-top: 20px;
+}
+.item{
+    margin: 0px 48px;
+    padding: 30px 49px;
+    border-bottom: 1px solid rgb(238,238,238);
+    text-align: left;
+    .item_title{
+        font-size: 30px;
+        color: rgb(154,154,154);
+        margin-bottom: 50px;
+    }
+    .item_content{
+        font-size: 36px;
+        color: rgb(34,34,34);
+        display: flex;
+        .content_title{
+            flex: 1;
+        }
+    }
+}

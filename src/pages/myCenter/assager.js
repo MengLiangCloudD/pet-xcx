@@ -1,0 +1,12 @@
+export {default as shangjian} from './../../commen/imger/shangjian.png';
+export {default as qita} from './../../commen/imger/qita.png';
+export {default as order} from './../../commen/imger/order.png';
+export {default as icon0} from './../../commen/imger/icon0.png';
+export {default as icon1} from './../../commen/imger/icon2.png';
+export {default as icon2} from './../../commen/imger/icon2.png';
+export {default as icon3} from './../../commen/imger/icon3.png';
+export {default as icon4} from './../../commen/imger/icon4.png';
+export {default as icon5} from './../../commen/imger/icon5.png';
+export {default as icon6} from './../../commen/imger/icon6.png';
+export {default as icon7} from './../../commen/imger/icon7.png';
+export {default as huiYou} from './../../commen/imger/huiYou.png';

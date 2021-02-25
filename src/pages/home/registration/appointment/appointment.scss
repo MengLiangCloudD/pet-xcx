@@ -1,0 +1,145 @@
+
+.nav{
+    display:-webkit-box;
+    display:flex;
+    display:-ms-flex;
+    display:-webkit-flex;
+    border-top: 20px solid rgb(238,238,238);
+    background: rgb(238,238,238);
+}
+.nav_item{
+    width: 159px;
+    height: 181px;
+    background: rgb(153,209,255);
+    line-height: 181px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    flex:1;
+    margin: 0 1px;
+    text-align: center;
+    .nav_week{
+        font-size: 36px;
+        padding-top: 23px;
+    }
+    .nav_month{
+        font-size: 30px;
+        padding-top: 23px;
+    }
+    .nav_trueORfalse{
+        font-size: 36px;
+        padding-top: 18px;
+    }
+}
+.nav_item1{
+    background: rgb(248,248,248);
+}
+.nav_item2{
+    background: rgb(0,121,255);
+    color: rgb(255,255,255);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    background: rgb(238,238,238);
+    text-align: center;
+}
+.content_item{
+    width: 1069px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 22px;
+    display: inline-block;
+    box-shadow: 6px 3px 6px 3px rgb(238,237,237), -6px 3px 6px 3px rgb(238,237,237) ;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    .doctor_img{
+        width: 355px;
+        height: 358px;
+        background: rgb(236,246,255);
+        display: inline-block;
+        vertical-align: top;
+        .heardimg{
+            width: 196px;
+            margin-top: 64px;
+            margin-left: 80px;
+        }
+    }
+    .doctor_info{
+        vertical-align: top;
+        display: inline-block;
+        .doctor_name{
+            margin-left: 47px;
+            color: rgb(34,34,34);
+            margin-top: 81px;
+            .name{
+                font-size: 48px;
+            display: inline-block;
+                vertical-align: bottom;
+            }
+            .job{
+                margin-left: 28px;
+                font-size: 36px;
+                display: inline-block;
+                vertical-align: bottom;
+            }
+                
+        }
+        .hos_name{
+            margin-left: 47px;
+            color: rgb(34,34,34);
+            margin-top: 53px;
+            font-size: 30px;
+            .hos{
+                display: inline-block;
+                vertical-align: bottom;
+            }
+            .hos_dep{
+                margin-left: 28px;
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+        .deb_title_nav{
+            margin-left: 18px;
+            margin-top: 31px;
+            .title_nav_item{
+                display: inline-block;
+                margin-left: 29px;
+                padding: 8px 14px;
+                font-size: 28px;
+                color: rgb(154,154,154);
+                background: rgb(248,248,248);
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+            }
+        }
+        .button{
+            width: 138px;
+            height: 49px;
+            text-align: center;
+            line-height: 49px;
+            background: rgb(0,121,255);
+            color: #fff;
+            position: absolute;
+            top: 82px;
+            right: 20px;
+            font-size: 30px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+}
+    }
+}

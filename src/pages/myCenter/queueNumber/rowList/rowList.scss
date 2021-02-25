@@ -1,0 +1,73 @@
+.content{
+    width: 100%;
+    position: absolute;
+    background: rgb(238,238,238);
+}
+.title{
+    padding: 44px 38px;
+    background: #fff;
+    margin:22px 28px 0 28px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.title_nav{
+    margin-bottom: 49px;
+}
+.nav_biao{
+    display: inline-block;
+    width: 6px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 26px;
+    background: rgb(0,121,255);
+}
+.nav_text{
+    font-size: 44px;
+    color: rgb(34,34,34);
+    vertical-align: middle;
+    display: inline-block;
+}
+.title_content{
+    margin-left: 32px;
+}
+.text{
+    line-height: 70px;
+    font-size: 36px;
+}
+.pet_info{
+    background: #fff;
+    margin:22px 28px 0 28px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.info_title{
+    padding: 48px 0;
+    font-size: 44px;
+    color: rgb(34,34,34);
+    text-align: center;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.info_item{
+    font-size: 36px;
+    color: rgb(34,34,34);
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.item_child{
+    width: 30%;
+    border-right: 1px solid rgb(238,238,238);
+    text-align: center;
+    padding: 51px 0;
+    display: inline-block;
+}
+.item_info{
+    display: inline-block;
+    width: calc(70% - 1px);
+    text-align: center;
+    padding: 51px 0;
+}

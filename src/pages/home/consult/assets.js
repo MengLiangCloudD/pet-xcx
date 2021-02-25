@@ -1,0 +1,10 @@
+export {default as youjian} from './../../../commen/imger/youjian.png';
+export {default as chongwu} from './../../../commen/imger/chongwu.png';
+export {default as zuojan} from './../../../commen/imger/zuojan.png';
+export {default as youjan} from './../../../commen/imger/youjan.png';
+export {default as tupian} from './../../../commen/imger/tupian.png';
+export {default as yuyin} from './../../../commen/imger/yuyin.png';
+export {default as jianpan} from './../../../commen/imger/jianpan.png';
+export {default as weibofang} from './../../../commen/imger/weibofang.png';
+export {default as bofang} from './../../../commen/imger/bofang.gif';
+export {default as doctor} from './../../../commen/imger/doctor.png';

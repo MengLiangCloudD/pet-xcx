@@ -1,0 +1,101 @@
+.content{
+    position: absolute;
+    width: 100%;
+    background:rgb(238,238,238);
+    // text-align: center;
+    padding-top: 28px;
+}
+.content_item{
+    padding: 44px 38px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #fff;
+    width: 993px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    .item_title{
+        padding-bottom: 24px;
+        .item_biao{
+            width: 6px;
+            height: 30px;
+            display: inline-block;
+            vertical-align: middle;
+            background: rgb(0,121,255);
+            margin-right: 26px;
+        }
+        .item_txt{
+            font-size: 44px;
+            color: rgb(34,34,34);
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+    }
+    .item_info{
+        font-size: 36px;
+        margin-left: 32px;
+        margin-top: 26px;
+    }
+    .info_bottom{
+        text-align: right;
+        .info_btn{
+            width: 238px;
+            text-align: center;
+            height: 70px;
+            line-height: 70px;
+            font-size: 36px;
+            color: rgb(154,154,154);
+            border: 1px solid rgb(154,154,154);
+            border-radius: 36px;
+            -webkit-border-radius: 36px;
+            -moz-border-radius: 36px;
+            -ms-border-radius: 36px;
+            -o-border-radius: 36px;
+            display: inline-block;
+        }
+    }
+}
+.content_item1{
+    padding: 0 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: rgb(238,238,238);
+    width: 1069px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    .text{
+        text-align: right;
+        margin-top: 26px;
+        // margin-right: 28px;
+        color: rgb(154,154,154);
+        font-size: 36px;
+    }
+}
+.botton{
+    width: 100%;
+    background: #fff;
+    height: 235px;
+    padding-top: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    .addbtn{
+       background: rgb(0,121,255);
+       color:#fff;
+       padding: 35px 234px;
+       font-size: 48px;
+       border-radius: 58px;
+       -webkit-border-radius: 58px;
+       -moz-border-radius: 58px;
+       -ms-border-radius: 58px;
+       -o-border-radius: 58px;
+       display: inline-block;
+}
+}

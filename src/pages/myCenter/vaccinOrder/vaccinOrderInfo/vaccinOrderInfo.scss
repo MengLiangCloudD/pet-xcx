@@ -1,0 +1,19 @@
+.content{
+    width: 100%;
+    text-align: center;
+    .content_img{
+        width: 610px;
+        height: 610px;
+        // background: #000;
+        margin: 300px auto 0 auto;
+        .imager{
+            width: 610px;
+            height: 610px;
+        }
+    }
+    .img_txt{
+        margin-top: 108px;
+        font-size: 36px;
+        color: rgb(34,34,34);
+    }
+}
